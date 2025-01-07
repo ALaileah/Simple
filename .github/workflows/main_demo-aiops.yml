@@ -11,7 +11,8 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest
+     name: 'Vm-HostedRuner'
+    #runs-on: windows-latest
 
     steps:
       - uses: actions/checkout@v4
